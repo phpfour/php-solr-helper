@@ -1,0 +1,25 @@
+{
+    "name": "emran/php-solr-helper",
+    "type": "library",
+    "description": "PHP Solr Helper",
+    "keywords": ["solr", "helper"],
+    "homepage": "https://github.com/phpfour/php-solr-helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emran Hasan",
+            "email": "phpfour@gmail.com",
+            "homepage": "http://phpfour.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "room13/PhpSolrClient": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Emran": "src"
+        }
+    }
+}
