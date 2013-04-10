@@ -15,8 +15,14 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "room13/PhpSolrClient": "dev-master"
+        "LooseMonkies/PhpSolrClient": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/LooseMonkies/PhpSolrClient.git"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "Emran": "src"
